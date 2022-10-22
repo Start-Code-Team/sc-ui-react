@@ -1,0 +1,76 @@
+:root {
+  /* Background Color */
+  --SCBackground-Default: #fff;
+  --SCBackground-Default-Contrast: #000;
+  --SCBackground-Primary: #01B3AE;
+  --SCBackground-Primary-Contrast: #fff;
+  --SCBackground-Secondary: #267475;
+  --SCBackground-Secondary-Contrast: #fff;
+  --SCBackground-Warn: #F0E24D;
+  --SCBackground-Warn-Contrast: #fff;
+  --SCBackground-Danger: #FF5454;
+  --SCBackground-Danger-Contrast: #fff;
+  --SCBackground-Info: #E593FF;
+  --SCBackground-Info-Contrast: #fff;
+  --SCBackground-Success: #38DB55;
+  --SCBackground-Success-Contrast: #fff;
+  /* Text Color */
+  --SCColor-Default: #fff;
+  --SCColor-Default-Contrast: #000;
+  --SCColor-Primary: #01B3AE;
+  --SCColor-Primary-Contrast: #fff;
+  --SCColor-Secondary: #267475;
+  --SCColor-Secondary-Contrast: #fff;
+  --SCColor-Warn: #F0E24D;
+  --SCColor-Warn-Contrast: #fff;
+  --SCColor-Danger: #FF5454;
+  --SCColor-Danger-Contrast: #fff;
+  --SCColor-Info: #E593FF;
+  --SCColor-Info-Contrast: #fff;
+  --SCColor-Success: #38DB55;
+  --SCColor-Success-Contrast: #fff;
+
+}
+
+/* Ripple effect */
+.SCRipple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.SCRipple:hover {
+  background: rgba(0, 0, 0, 0.2) radial-gradient(circle, transparent 1%, rgba(0, 0, 0, 0.2) 1%) center/15000%;
+}
+.SCRipple:active {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.SCButton-Default {
+  background-color: var(--SCBackground-Default) !important;
+  color: var(--SCColor-Default-Contrast) !important;
+}
+.SCButton-Primary {
+  background-color: var(--SCBackground-Primary) !important;
+  color: var(--SCColor-Primary-Contrast) !important;
+}
+.SCButton-Secondary {
+  background-color: var(--SCBackground-Secondary) !important;
+  color: var(--SCColor-Secondary-Contrast) !important;
+}
+.SCButton-Warn {
+  background-color: var(--SCBackground-Warn) !important;
+  color: var(--SCColor-Warn-Contrast) !important;
+}
+.SCButton-Danger {
+  background-color: var(--SCBackground-Danger) !important;
+  color: var(--SCColor-Danger-Contrast) !important;
+}
+.SCButton-Info {
+  background-color: var(--SCBackground-Info) !important;
+  color: var(--SCColor-Info-Contrast) !important;
+}
+.SCButton-Success {
+  background-color: var(--SCBackground-Success) !important;
+  color: var(--SCColor-Success-Contrast) !important;
+}
