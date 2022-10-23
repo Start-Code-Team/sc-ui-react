@@ -1,7 +1,7 @@
 import React from "react";
 
 import 'sc-ui-react/dist/index.css';
-import { SCButton } from "sc-ui-react";
+import { SCAvatar, SCButton } from "sc-ui-react";
 
 const Pages = () => {
 
@@ -84,6 +84,10 @@ const Pages = () => {
 
             <SCButton href='#asd' secondary={true} rounded={true}>Hello</SCButton>
             <SCButton href='#asd' danger={true} rounded={true}>Hello</SCButton>
+            <SCAvatar email="test@test.com" />
+            <SCAvatar firstName="test" lastName="test" />
+            <SCAvatar imgUrl="https://i.pravatar.cc/150?u=7u82x4b066m" />
+            <SCAvatar imgUrl="https://i.pravatar.cc/150?u=7u82x4b066m" size={80} />
           </main>
         </div>
     </div>
