@@ -74,3 +74,61 @@
   background-color: var(--SCBackground-Success) !important;
   color: var(--SCColor-Success-Contrast) !important;
 }
+
+
+.SCCard-Default {
+  background-color: var(--SCBackground-Default);
+  color: var(--SCColor-Default-Contrast) !important;
+}
+.SCCard-Primary {
+  background-color: var(--SCBackground-Primary);
+  color: var(--SCColor-Primary-Contrast) !important;
+}
+.SCCard-Secondary {
+  background-color: var(--SCBackground-Secondary);
+  color: var(--SCColor-Secondary-Contrast) !important;
+}
+.SCCard-Warn {
+  background-color: var(--SCBackground-Warn);
+  color: var(--SCColor-Warn-Contrast) !important;
+}
+.SCCard-Danger {
+  background-color: var(--SCBackground-Danger);
+  color: var(--SCColor-Danger-Contrast) !important;
+}
+.SCCard-Info {
+  background-color: var(--SCBackground-Info);
+  color: var(--SCColor-Info-Contrast) !important;
+}
+.SCCard-Success {
+  background-color: var(--SCBackground-Success);
+  color: var(--SCColor-Success-Contrast) !important;
+}
+.SCCard-Border-Default {
+  border:1px solid var(--SCBackground-Default);
+  color: var(--SCColor-Default) !important;
+}
+.SCCard-Border-Primary {
+  border:1px solid var(--SCBackground-Primary);
+  color: var(--SCColor-Primary) !important;
+}
+.SCCard-Border-Secondary {
+  border:1px solid var(--SCBackground-Secondary);
+  color: var(--SCColor-Secondary) !important;
+}
+.SCCard-Border-Warn {
+  border:1px solid var(--SCBackground-Warn);
+  color: var(--SCColor-Warn) !important;
+}
+.SCCard-Border-Danger {
+  border:1px solid var(--SCBackground-Danger);
+  color: var(--SCColor-Danger) !important;
+}
+.SCCard-Border-Info {
+  border:1px solid var(--SCBackground-Info);
+  color: var(--SCColor-Info) !important;
+}
+.SCCard-Border-Success {
+  border:1px solid var(--SCBackground-Success);
+  color: var(--SCColor-Success) !important;
+}

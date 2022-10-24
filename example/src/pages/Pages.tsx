@@ -1,7 +1,7 @@
 import React from "react";
 
 import 'sc-ui-react/dist/index.css';
-import { SCAvatar, SCButton } from "sc-ui-react";
+import { SCAvatar, SCButton, SCCard } from "sc-ui-react";
 
 const Pages = () => {
 
@@ -88,6 +88,29 @@ const Pages = () => {
             <SCAvatar firstName="test" lastName="test" />
             <SCAvatar imgUrl="https://i.pravatar.cc/150?u=7u82x4b066m" />
             <SCAvatar imgUrl="https://i.pravatar.cc/150?u=7u82x4b066m" size={80} />
+
+            <SCCard className="p-5 m-7" primary={true} onClick={() => {console.log('asd')}}>
+                HOla
+            </SCCard>
+            <SCCard className="p-5 m-7" danger={true} href="asdasd">
+                HOla
+            </SCCard>
+            <SCCard className="p-5 m-7">
+                HOla
+            </SCCard>
+            <SCCard raised={true} className="p-5 m-7">
+                HOla
+            </SCCard>
+            <SCCard raised={true} warn={true} className="p-5 m-7">
+                HOla
+            </SCCard>
+            <SCCard bordered={true} primary={true} className="p-5 m-7">
+                HOla
+            </SCCard>
+            <SCCard bordered={true} danger={true} className="p-5 m-7">
+                HOla
+            </SCCard>
+
           </main>
         </div>
     </div>

@@ -23,7 +23,13 @@ describe('Componente SCButton', () => {
     expect(document.querySelector('button')).not.toBeUndefined();
   });
 
-  it('El componente obtiene la clase del tema seleccionado', () => {
+  it('El componente obtiene la clase del tema seleccionado: primary={true}', () => {
     setUp({ primary: true });
+    expect(document.querySelector('.SCButton-Primary')).not.toBeUndefined();
+  });
+
+  it('El componente obtiene la clase del tema seleccionado: danger={true}', () => {
+    setUp({ danger: true });
+    expect(document.querySelector('.SCButton-Danger')).not.toBeUndefined();
   });
 });

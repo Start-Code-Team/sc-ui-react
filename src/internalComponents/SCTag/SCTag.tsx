@@ -6,7 +6,7 @@ export interface SCTagProps {
   children?: any;
 }
 
-const SCTag = (props?: any) => {
+const SCTag = (props: any = {}) => {
   const { tagtype, children } = props;
   switch (tagtype) {
     case 'a':

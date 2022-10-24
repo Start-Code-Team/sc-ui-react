@@ -1,8 +1,12 @@
 import React from 'react';
 
-const SCRipple = (props?: any) => {
+interface SCRippleProps {
+  rounded?: boolean;
+}
+
+const SCRipple = (props: SCRippleProps = {}) => {
   return(
-    <div {...props} className={`w-full h-full absolute top-0 bottom-0 left-0 ${props.rounded ? 'rounded-full' : 'rounded'} SCRipple`} ></div>
+    <div data-testid="SCRipple" {...props} className={`w-full h-full absolute top-0 bottom-0 left-0 ${(props.rounded) ? 'rounded-full' : 'rounded'} SCRipple`} ></div>
   )
 }
 
